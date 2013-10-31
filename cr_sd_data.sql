@@ -28,6 +28,7 @@ INSERT INTO ceig.sd_status (status_id, status_name) VALUES (6, 'Permission accor
 ALTER SEQUENCE ceig.seq_office_id RESTART WITH 5;
 
 --Inserting alert period for identified alerts
+--Inserting alert type & period for identified alerts [no GUI]
 INSERT INTO ceig.sd_alert (alert_id, alert_type,alert_period) VALUES (1, 'no action',1);
 INSERT INTO ceig.sd_alert (alert_id, alert_type,alert_period) VALUES (2, 'delayed action',1);
 
